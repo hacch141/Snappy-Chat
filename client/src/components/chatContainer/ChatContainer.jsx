@@ -69,7 +69,6 @@ const ChatContainer = ({ currentChat , currentUser , socket  }) => {
     setScroll()
   }, [messages]);
 
-
   return (
     <div className="chatcon-container">
       <div className="chatcon-chat-header">
