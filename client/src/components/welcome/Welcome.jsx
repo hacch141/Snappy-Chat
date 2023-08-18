@@ -10,7 +10,7 @@ const Welcome = () => {
     async function setUser() {
       setUserName(
         await JSON.parse(
-          localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)
+          localStorage.getItem("chat-app-current-user")
         ).username
       );
     }

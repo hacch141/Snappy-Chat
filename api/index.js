@@ -31,7 +31,8 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
     cors: {
-        origin: "http://localhost:3000",
+        // origin: "http://localhost:5173",
+        origin: "https://web-chat-dusky.vercel.app/",
         credentials: true,
     },
 });
